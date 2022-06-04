@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/hom"
+        android:layout_width="wrap_content"
+        android:layout_height="650dp"
+        android:alpha="0"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/nb" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="525dp"
+        android:layout_height="650dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/homer5" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="525dp"
+        android:layout_height="650dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/homer4" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="525dp"
+        android:layout_height="650dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/homer3" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="525dp"
+        android:layout_height="650dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1"
+        app:srcCompat="@drawable/homer2" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="525dp"
+        android:layout_height="650dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/homer1" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="525dp"
+        android:layout_height="650dp"
+        android:alpha="1"
+        android:onClick="HomerC"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/homer" />
+
+    <ImageView
+        android:id="@+id/loading"
+        android:layout_width="242dp"
+        android:layout_height="189dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="82dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065"
+        app:srcCompat="@drawable/untitled_2" />
+
+    <ImageView
+        android:id="@+id/loading2"
+        android:layout_width="242dp"
+        android:layout_height="189dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="82dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
+        app:srcCompat="@drawable/untitled_3" />
+
+    <ImageView
+        android:id="@+id/hom1"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:onClick="Homermarge"
+        android:tag="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.757"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <ImageView
+        android:id="@+id/hom2"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:onClick="Homermarge"
+        android:tag="8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+
+        />
+
+    <ImageView
+        android:id="@+id/hom3"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:onClick="Homermarge"
+        android:tag="7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
+
+    <ImageView
+        android:id="@+id/hom4"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:onClick="Homermarge"
+        android:tag="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <ImageView
+        android:id="@+id/hom5"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:onClick="Homermarge"
+        android:tag="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611" />
+
+    <ImageView
+        android:id="@+id/hom6"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:onClick="Homermarge"
+        android:tag="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <ImageView
+        android:id="@+id/hom7"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:onClick="Homermarge"
+        android:tag="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383" />
+
+    <ImageView
+        android:id="@+id/home8"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:onClick="Homermarge"
+        android:tag="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44" />
+
+    <ImageView
+        android:id="@+id/home9"
+        android:layout_width="64dp"
+        android:layout_height="76dp"
+        android:onClick="Homermarge"
+        android:tag="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="354dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:text="TAP HOMER TO PLAY TIC TAC TOE WITH HOMER AND MARGE!"
+        android:textAlignment="center"
+        android:textColor="#0C0000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/winnerMessage"
+        android:layout_width="354dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/background_light"
+        android:textAlignment="center"
+        android:textColor="#0C0000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pa"
+        android:layout_width="386dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="playAgainBut"
+        android:text="PLAY AGAIN!!"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.sahil.libraries.shinebutton.shinebutton.ShineButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:allow_random_color="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
